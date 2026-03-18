@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/        # Ignore the __pycache__ directory
+*.pyc               # Ignore all .pyc files
+*.pyd
+*.pyo
+*.egg-info/
+
+# Virtual environment
+# Ignore the virtual environment folder, commonly named venv, .venv, or env
+venv/
+.venv/
+env/
+.env/
+
+# IDE and editor files
+.vscode/            # Visual Studio Code config folder (uncomment if desired)
+.idea/              # PyCharm/IntelliJ config folder
+
+# Build artifacts
+dist/               # Ignore distribution packages
+build/              # Ignore build directory
+
+# Log and data files
+*.log               # Ignore log files
+.pypirc             # PyPI configuration file
+
+# OS-specific files
+.DS_Store           # macOS file
+Thumbs.db           # Windows file
