@@ -1,4 +1,4 @@
-from ..personagens.inimigo import Inimigo 
+from personagens.inimigo import Inimigo 
 
 class Goblin(Inimigo):
 

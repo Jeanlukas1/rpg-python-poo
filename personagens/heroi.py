@@ -1,4 +1,4 @@
-from personagem import Personagem
+from personagens.personagem import Personagem
 class Heroi(Personagem):
 
     def __init__(self, nome):

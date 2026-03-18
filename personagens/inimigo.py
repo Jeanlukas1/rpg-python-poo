@@ -1,4 +1,4 @@
-from personagem import Personagem
+from personagens.personagem import Personagem
 class Inimigo(Personagem):
 
     def __init__(self, nome, vida, nivel):

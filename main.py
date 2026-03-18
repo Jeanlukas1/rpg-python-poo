@@ -20,8 +20,10 @@ class Combate:
             if heroi.vida <= 0:
                 print("O herói foi derrotado!")
                 
-heroi = Heroi("Arthur")
-inimigo = Orc()
+# Apenas o nome, pois vida e nível já estão definidos na classe!
+meu_heroi = Heroi("Aragorn")
+meu_inimigo = Orc()
 
+# O resto do código de combate continua igual
 combate = Combate()
-combate.iniciar(heroi, inimigo)
+combate.iniciar(meu_heroi, meu_inimigo)
