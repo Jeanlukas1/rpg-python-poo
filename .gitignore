@@ -4,6 +4,7 @@ __pycache__/        # Ignore the __pycache__ directory
 *.pyd
 *.pyo
 *.egg-info/
+tempCodeRunnerFile.py
 
 # Virtual environment
 # Ignore the virtual environment folder, commonly named venv, .venv, or env
